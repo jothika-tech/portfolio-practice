@@ -1,0 +1,277 @@
+* {
+    margin: 0%;
+}
+
+#header_cotainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 10px 0px;
+}
+
+.nav_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav_items {
+    padding: 0px 25px;
+    font-size: 1.25rem;
+    color: black;
+}
+
+.nav_items:hover {
+    text-decoration: underline;
+}
+
+#main_intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(211, 211, 211, 0.1);
+}
+
+#heloo_cotainer {
+    padding: 50px;
+    max-width: 50%;
+}
+
+#my_pic {
+    margin: 10px;
+}
+
+#my_pic img {
+    width: 100%;
+    height: auto;
+}
+
+.hello {
+    font-size: 28px;
+    color: green;
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+
+.version_Freelancer {
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.full_version {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.lorem {
+    font-size: 20px;
+    font-family: 'Arial', Arial, Helvetica, sans-serif;
+    color: gray;
+    padding-bottom: 15px;
+    font-weight: 300;
+}
+
+#button_hireme {
+    margin: 10px 0px;
+}
+
+.bt_hireme {
+    padding: 15px 25px;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#about_me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 25px 0px;
+}
+
+#about_imgcontainer {
+    margin: 10px;
+}
+
+#about_imgcontainer img {
+    width: 100%;
+    height: auto;
+}
+
+#about_me_container {
+    max-width: 50%;
+}
+
+.about_me_title {
+    font-size: 30px;
+    font-weight: 400;
+    color: green;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+.why_hireme {
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+.about_me_para {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    line-height: 1.5;
+}
+
+.skills {
+    padding: 20px;
+}
+
+.skills_items {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    line-height: 1.5;
+    list-style-type: none;
+}
+
+#services_container {
+    background-color: rgba(211, 211, 211, 0.1);
+    padding: 25px 50px;
+}
+
+.services_heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services_heading h3 {
+    font-size: 25px;
+    font-weight: 400;
+    color: green;
+    padding-bottom: 20px;
+}
+
+.services_heading h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.services_subcontainers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+.services_each {
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.services_each:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    background-color: green;
+    color: white;
+}
+
+.service_title {
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.service_para {
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 10px 0px;
+}
+
+.nav_toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    #main_intro {
+        flex-direction: column;
+    }
+
+    #heloo_cotainer {
+        max-width: 100%;
+        padding: 50px;
+    }
+
+    #my_pic {
+        margin: 20px;
+    }
+
+    #about_me {
+        flex-direction: column;
+    }
+
+    #about_me_container {
+        max-width: 100%;
+        height: auto;
+        padding: 50px;
+    }
+
+    .services_subcontainers {
+        flex-direction: column;
+    }
+
+    .nav_toggle {
+        display: block;
+    }
+
+    .nav_container {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav_container.nav_visible {
+        display: flex;
+    }
+
+    .nav_items {
+        padding: 10px 0;
+    }
+}

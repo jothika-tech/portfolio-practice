@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- Header part -->
+    <header id="header_cotainer">
+      <div>
+        <img src="/assests/logo.svg" alt="profile" height="40px" />
+      </div>
+      <nav>
+        <button class="nav_toggle" aria-label="Toggle navigation">
+          &#9776;
+        </button>
+        <ul class="nav_container">
+          <li class="nav_items">Home</li>
+          <li class="nav_items">About</li>
+          <li class="nav_items">Services</li>
+          <li class="nav_items">Experience</li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- hello part -->
+    <section id="main_intro">
+      <div id="heloo_cotainer">
+        <h2 class="hello">Hello</h2>
+        <h1 class="version_Freelancer">
+          You are using free lite version of Freelancer
+        </h1>
+        <h5 class="full_version">
+          Please, purchase full version to get all elements, features, footer
+          credit removal permission and commercial license
+        </h5>
+        <p class="lorem">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
+        </p>
+
+        <div id="button_hireme">
+          <button class="bt_hireme">Hire me</button>
+        </div>
+      </div>
+
+      <div id="my_pic">
+        <img src="/assests/hero.png" alt="hero_img" />
+      </div>
+    </section>
+
+    <!-- About me part -->
+    <section id="about_me">
+      <div id="about_imgcontainer">
+        <img src="/assests/about_hero.png" alt="about_img" />
+      </div>
+      <div id="about_me_container">
+        <h2 class="about_me_title">About Me</h2>
+        <h3 class="why_hireme">Why You Hire Me?</h3>
+        <p class="about_me_para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+          illum doloribus dolores voluptatibus eos rem quisquam fuga possimus,
+          iste fugit. Autem accusamus mollitia consequatur culpa. Mollitia
+          molestias iure esse incidunt officiis! Quam delectus tempora quas
+          dolor ea, neque maiores inventore. Eos eligendi et numquam modi eum
+          nisi, est hic tempora molestiae blanditiis ut suscipit natus, dolorum
+          incidunt ad deserunt culpa!
+        </p>
+
+        <div>
+          <ul class="skills">
+            <li class="skills_items">React Native</li>
+            <li class="skills_items">React</li>
+            <li class="skills_items">JavaScript</li>
+            <li class="skills_items">HTML</li>
+            <li class="skills_items">CSS</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services part -->
+    <section id="services_container">
+      <div class="services_heading">
+        <h3>Services</h3>
+        <h2>Services I Provide</h2>
+      </div>
+
+      <div>
+        <div class="services_subcontainers">
+          <div class="services_each">
+            <h2 class="service_title">Graphic Design</h2>
+            <p class="service_para">
+              Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to
+              incididunt uabore etdolore magna aliqua.
+            </p>
+          </div>
+          <div class="services_each">
+            <h2 class="service_title">Web Design</h2>
+            <p class="service_para">
+              Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to
+              incididunt uabore etdolore magna aliqua.
+            </p>
+          </div>
+          <div class="services_each">
+            <h2 class="service_title">UI/UX Developer</h2>
+            <p class="service_para">
+              Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to
+              incididunt uabore etdolore magna aliqua.
+            </p>
+          </div>
+        </div>
+
+        <div class="services_subcontainers">
+          <div class="services_each">
+            <h2 class="service_title">Graphic Design</h2>
+            <p class="service_para">
+              Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to
+              incididunt uabore etdolore magna aliqua.
+            </p>
+          </div>
+          <div class="services_each">
+            <h2 class="service_title">Web Design</h2>
+            <p class="service_para">
+              Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to
+              incididunt uabore etdolore magna aliqua.
+            </p>
+          </div>
+          <div class="services_each">
+            <h2 class="service_title">UI/UX Developer</h2>
+            <p class="service_para">
+              Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to
+              incididunt uabore etdolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>All rights reserved &copy; 2025</footer>
+
+    <script>
+      document
+        .querySelector(".nav_toggle")
+        .addEventListener("click", function () {
+          document
+            .querySelector(".nav_container")
+            .classList.toggle("nav_visible");
+        });
+    </script>
+  </body>
+</html>
